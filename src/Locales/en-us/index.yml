@@ -1,0 +1,48 @@
+---
+
+message-delete-user-success: User ID %id% was deleted successfully.
+message-create-user-fail: Error create new user.
+message-fullname-notempty: Fullname is required.
+message-password-notempty: Password is required.
+message-email-notempty: Email is required.
+message-groupid-notempty: Group is required.
+message-status-notempty: Status is required.
+message-email-unique: Email has already existed.
+message-auth-no-email: Email is required.
+message-auth-invalid-type: Auth invalid type.
+message-auth-bad-login: Account didn't verified or wrong password.
+message-auth-unauthorized: Request must be authorized.
+message-auth-no-password: Password is required.
+message-auth-no-token: Auth missing token.
+message-auth-forbidden: Auth forbidden.
+message-auth-expired: Token expired.
+message-auth-password-changed: User has changed password.
+message-auth-account-already-existed: Account already existed.
+message-auth-account-did-not-verified: Account didn't verified.
+message-auth-account-new: Auth new account.
+message-auth-account-need-update-password: Account need update password.
+message-auth-google-no-data: Google OAuth no data.
+message-auth-google-bad-login: Google OAuth bad login.
+message-user-not-active: User not active.
+message-user-not-found: User not found.
+message-user-register-fail: User register failed.
+message-user-mod-fail: User mod failed.
+message-user-create-fail: User create failed.
+message-user-register-no-fullname: Fullname is required.
+message-user-register-no-email: Email is required.
+message-user-register-no-password: Password is required.
+message-user-register-un-unique-email: Email already existed.
+message-user-register-invalid-email: Email in-valid.
+message-user-password-not-match: Password not match.
+message-user-send-activate-mail-fail: Send activate user email failed.
+message-user-register-no-captcha: Captcha is required.
+message-user-register-captcha-fail: User register captcha wrong.
+message-user-old-password-not-match: Old password not match.
+message-user-send-forgot-mail-fail: Send forgot password email failed.
+
+label-status-enable: Enabled
+label-status-disable: Disabled
+label-is-verified: Verified
+label-is-not-verified: Un-Verified
+label-verify-type-email: Email
+label-verify-type-phone: Phone

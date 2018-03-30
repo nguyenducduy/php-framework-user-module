@@ -1,0 +1,18 @@
+---
+
+message-delete-user-success: Thành viên ID %id% đã được xoá thành công.
+message-create-user-fail: Lỗi thêm thành viên.
+message-fullname-notempty: Tên không được để trống.
+message-password-notempty: Mật khẩu không được để trống.
+message-email-notempty: Email không được để trống.
+message-groupid-notempty: Nhóm không được để trống.
+message-status-notempty: Trạng thái không được để trống.
+message-email-unique: Email đã được sử dụng.
+message-auth-bad-login: Tài khoản chưa được kích hoạt hoặc sai mật khẩu.
+
+label-status-enable: Hiện
+label-status-disable: Khoá
+label-is-verified: Đã xác thực
+label-is-not-verified: Chưa xác thực
+label-verify-type-email: Email
+label-verify-type-phone: Số ĐT

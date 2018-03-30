@@ -1,0 +1,43 @@
+<?php
+namespace User\Constants;
+use Shirou\Constants\ErrorCode as ShErrorCode;
+
+class ErrorCode extends ShErrorCode
+{
+    // Authentication
+    const AUTH_NOEMAIL = 3001,
+        AUTH_INVALIDTYPE = 3002,
+        AUTH_BADLOGIN = 3003,
+        AUTH_UNAUTHORIZED = 3004,
+        AUTH_NOPASSWORD = 3005,
+        AUTH_NOTOKEN = 3006,
+        AUTH_FORBIDDEN = 3007,
+        AUTH_EXPIRED = 3008,
+        AUTH_PASSWORD_CHANGED = 3009,
+        AUTH_ACCOUNT_ALREADY_EXISTED = 3010,
+        AUTH_ACCOUNT_DIDNOT_VERIFIED = 3011,
+        AUTH_ACCOUNT_NEW = 3012,
+        AUTH_ACCOUNT_NEED_UPDATE_PASSWORD = 3013;
+
+    // Google
+    const GOOGLE_NODATA = 3014,
+        GOOGLE_BADLOGIN = 3015;
+
+    // User management
+    const USER_NOTACTIVE = 3016,
+        USER_NOTFOUND = 3017,
+        USER_REGISTERFAIL = 3018,
+        USER_MODFAIL = 3019,
+        USER_CREATE_FAIL = 3020,
+        USER_REG_NOFULLNAME = 3021,
+        USER_REG_NOEMAIL = 3022,
+        USER_REG_NOPASSWORD = 3023,
+        USER_REG_UNUNIQUEEMAIL = 3024,
+        USER_REG_INVALIDEMAIL = 3025,
+        USER_PASSWORD_NOT_MATCH = 3026,
+        USER_SEND_ACTIVATE_MAIL_FAIL = 3027,
+        USER_REGISTER_NO_CAPTCHA = 3028,
+        USER_REGISTER_CAPTCHA_FAIL = 3029,
+        USER_OLD_PASSWORD_NOT_MATCH = 3030,
+        USER_SEND_FORGOT_MAIL_FAIL = 3031;
+}
